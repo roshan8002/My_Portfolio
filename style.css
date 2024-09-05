@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  overflow-x: hidden;
+}
+.intro {
+  margin: auto;
+  padding: 10px;
+  display: flex;
+  justify-content: space-around;
+}
+.intro-img {
+  height: 450px;
+  width: 600px;
+  /* margin-left: 100px */
+}
+
+.intro h2 {
+  font-size: 60px;
+  justify-self: center;
+  align-self: center;
+}
+.intro-img2 {
+  border: 5px solid lightblue;
+  height: 400px;
+  width: 400px;
+  align-self: center;
+  justify-self: center;
+  border-radius: 30px;
+}
+.intro img:hover {
+  border-color: 5px red;
+}
+.carousel-item img {
+  height: 90vh;
+  width: 100%;
+}
+.aboutimg {
+  height: 100px;
+  width: 100px;
+}
+.card-body img {
+  min-width: 50%;
+  max-height: 200px;
+}
+h1 {
+  font-family: cursive;
+}
+p {
+  font-family: "Times New Roman", Times, serif;
+}
